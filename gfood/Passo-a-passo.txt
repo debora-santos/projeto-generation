@@ -1,0 +1,26 @@
+1 - Criar o projeto no site do spring
+2 - Importar no intelliJ
+3 - Ajustar o application properties para conectar com o MySQL
+
+ex: 
+spring.datasource.url=jdbc:mysql://localhost:3307/NOMEDAPAG?useSSL=false&useTimezone=true&serverTimezone=America/Sao_Paulo
+spring.datasource.username=root
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
+
+
+4 - Caso não exista, criar o banco e a tabela
+5 - Criar um package com o "nome" do CRUD
+6 - Criar um controller
+
+
+
+----
+
+
+CRUD
+0 - Criar banco
+1 - Entity	ex: Produto
+2 - Repository	ex: ProdutoRepository
+3 - Controller	ex: ProdutoController
+
+** maiúscula pq é classe e camel case **
